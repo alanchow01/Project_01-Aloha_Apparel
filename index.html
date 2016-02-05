@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Aloha Apparel</title>
+		<meta name="description" content="Aloha Apparel Company">
+		<meta name="author" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="js/bxslider/jquery.bxslider.css" />
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	</head>
+	
+	<body>
+	
+		<header class="site-header">
+			<div class="container site-header-container">
+				<div class="logo">
+					<h1 class="screen-reader">Aloha Apparel Company</h1>
+					<img src="images/aloha-logo.svg" alt="Aloha Apparel" />
+				</div>
+				
+					<ul class="navigation">
+						<li><a href="#about">About</a></li>
+						<li><a href="#categories">Shop</a></li>
+						<li><a href="#product-list">Featured</a></li>
+						<li><a href="#newsletter">Updates</a></li>
+					</ul>
+				
+				<div class="shop-cart">
+					<a href=""><img src="images/cart-icon.svg" alt="Shopping Cart" /></a>
+					<span class="cart-items">0</span>
+				</div>
+			</div>
+		</header>
+	
+		<section class="hero-banner">
+			<div class="container hero-text">
+				<p>New Collection</p>
+				<h2>Spring/Summer 2016</h2>
+			</div>
+		</section>
+		
+		<section class="about" id="about">
+			<div class="container text-wrapper">
+				<h3><span class="italic-style">Hand-Crafted</span> Styles</h3>
+				<p>Aloha Apparel Co. sells only the finest ready-to-travel clothing. Browse our current selection of products or sign-up for updates below.</p>
+			</div>
+		</section>
+
+		<section id="categories">
+				<div class="product-categories">
+					<div class="mens categories-wide"><a href="#">Men's</a></div>
+					<div class="trends categories-square"><a href="#">Trends</a></div>
+					<div class="glasses categories-square"><a href="#">Glasses</a></div>
+					<div class="sale categories-square"><a href="#">Sale</a></div>
+					<div class="bags categories-square"><a href="#">Bags</a></div>
+					<div class="womens categories-wide"><a href="#">Women's</a></div>
+				</div>
+		</section>
+		
+		<section class="catalogue" id="product-list">
+			<div class="container">
+				<h3><span class="italic-style">Most-Loved</span> Products</h3>
+			</div>
+			<ul class="products bxslider">
+				<li>
+					<img src="images/stretch-knit-dress.jpg" alt="Stretch Knit Dress" />
+					<p class="product-category">Dresses</p>
+					<h4>Stretch Knit Dress</h4>
+					<p class="price">$169.00</p>
+					<button type="button" class="add-to-cart">Add to Cart</button>
+				</li>
+				<li>
+					<img src="images/cotton-blue-shirt.jpg" alt="Cotton Blue Shirt" />
+					<p class="product-category">Shirts</p>
+					<h4>Cotton Blue Shirt</h4>
+					<p class="price">$89.00</p>
+					<button type="button" class="add-to-cart">Add to Cart</button>
+				</li>
+				<li>
+					<img src="images/checked-stretch-dress.jpg" alt="Checked Stretch Dress" />
+					<p class="product-category">Dresses</p>
+					<h4>Checked Stretch Dress</h4>
+					<p class="price">$129.00</p>
+					<button type="button" class="add-to-cart">Add to Cart</button>
+				</li>
+				<li>
+					<img src="images/blue-hipster-backpack.jpg" alt="Blue Hipster Backpack" />
+					<p class="product-category">Bags</p>
+					<h4>Blue Hipster Backpack</h4>
+					<p class="price">$69.00</p>
+					<button type="button" class="add-to-cart">Add to Cart</button>
+				</li>
+				<li>
+					<img src="images/demin-overall-shorts.jpg" alt="Demin Overall Shorts" />
+					<p class="product-category">Dresses</p>
+					<h4>Denim Overall Shorts</h4>
+					<p class="price">$89.00</p>
+					<button type="button" class="add-to-cart">Add to Cart</button>
+				</li>
+				<li>
+					<img src="images/pink-dotted-dress.jpg" alt="Pink Dotted Dress" />
+					<p class="product-category">Shirts</p>
+					<h4>Pink Dotted Dress</h4>
+					<p class="price">$99.00</p>
+					<button type="button" class="add-to-cart">Add to Cart</button>
+				</li>
+				<li>
+					<img src="images/blue-silk-dress.jpg" alt="Blue Silk Dress" />
+					<p class="product-category">Dresses</p>
+					<h4>Blue Silk Dress</h4>
+					<p class="price">$119.00</p>
+					<button type="button" class="add-to-cart">Add to Cart</button>
+				</li>
+				<li>
+					<img src="images/cotton-yellow-tshirt.jpg" alt="Cotton Yellow Shirt" />
+					<p class="product-category">Bags</p>
+					<h4>Cotton Yellow Shirt</h4>
+					<p class="price">$39.00</p>
+					<button type="button" class="add-to-cart">Add to Cart</button>
+				</li>
+			</ul>
+		</section>
+		
+		<section class="newsletter" id="newsletter">
+			<div class="container text-wrapper">
+				<h3><span class="italic_style">Sign-up for</span> Updates</h3>
+				<p>Stay updated on our latest product releases, be first to find out about upcoming sales, and get free style tips from our blog. Unsubscribe at any time.</p>
+				<form class="newsletter-form" id="newsletter-form">
+					<input type="email" name="your-email" value="" placeholder="Your Email" id="your-email">
+					<input type="submit" name="subscribe" value="Subscribe">
+				</form>
+			</div>
+		</section>
+		
+		<footer>
+			<div class="container footer">
+				<div class="credits">
+					<div class="copyright">
+						<p>&copy; 2016 Aloha Apparel Co.</p>
+						<p>Powered by HTML and CSS.</p>
+					</div>
+					<div class="contact">
+						<p>604-604-6040. <a href="mailto:info@alohaapparel.com">info@alohaapparel.com</a></p>
+					</div>
+					<div class="address">
+						<p>1490 W Broadway</p>
+						<p>Vancouver, BC, Canada</p>
+					</div>
+				</div>
+				<div class="social">
+					<ul>
+						<li><a href=""><i class="fa fa-facebook"></i> <span class="social-net">Facebook</span></a></li>
+						<li><a href=""><i class="fa fa-twitter"></i> <span class="social-net">Twitter</span></a></li>
+						<li><a href=""><i class="fa fa-instagram"></i> <span class="social-net">Instagram</span></a></li>
+						<li><a href=""><i class="fa fa-pinterest"></i> <span class="social-net">Pinterest</span></a></li>
+						<li><a href=""><i class="fa fa-google-plus"></i> <span class="social-net">Google+</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</footer>
+		<!-- Javascript files -->
+			<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+			<script src="js/bxslider/jquery.bxslider.min.js"></script>
+		 	<script src="js/scripts.js"></script>
+	</body>
+	
+</html>
