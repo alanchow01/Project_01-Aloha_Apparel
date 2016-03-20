@@ -164,7 +164,7 @@ a:hover, a:active {
 	width: 100%;
 }
 
-.about, .catalogue, .newsletter, footer {
+.about, .catalogue, .newsletter, .main-footer {
 	padding: 3.75rem 0;
 }
 
@@ -186,7 +186,7 @@ a:hover, a:active {
 }
 
 .italic-style {
-	font-weight: normal; 
+	font-weight: normal;
 	font-style: italic;
 }
 
@@ -346,7 +346,7 @@ a:hover, a:active {
 .categories-wide:before {
 	padding-top: 50%;
 }
-	
+
 .categories-square:before {
 	padding-top: 100%;
 }
@@ -395,42 +395,42 @@ a:hover, a:active {
 }
 
 .mens {
-	background: 
+	background:
     	linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 		url('../images/mens-category.jpg') no-repeat center center;
 	background-size: cover, cover;
 }
 
 .trends {
-	background: 
+	background:
     	linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
     	url('../images/trends-category.jpg') no-repeat center;
 	background-size: cover, cover;
 }
 
 .glasses {
-	background: 
+	background:
     	linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
     	url('../images/glasses-category.jpg') no-repeat center;
 	background-size: cover, cover;
 }
 
 .sale {
-	background: 
+	background:
     	linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
     	url('../images/sale-category.jpg') no-repeat center;
 	background-size: cover, cover;
 }
 
 .bags {
-	background: 
+	background:
     	linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
     	url('../images/bags-category.jpg') no-repeat center;
 	background-size: cover, cover;
 }
 
 .womens {
-	background: 
+	background:
 	    linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 		url('../images/womens-category.jpg') no-repeat center;
 	background-size: cover, cover;
@@ -539,7 +539,7 @@ input[type="submit"]:hover {
 
 /* --- Footer --- */
 
-footer {
+.main-footer {
 	background-color: #242424;
 	color: #fff;
 	line-height: 1.5;
@@ -577,7 +577,7 @@ footer {
 .social a {
 	text-decoration: none;
 }
-	
+
 .social i {
 	width: 1.6rem;
 }
@@ -600,23 +600,23 @@ footer {
 		font-size: 2.4rem;
 		margin-bottom: 1.5rem;
 	}
-	
+
 	h4 {
 		font-size: 1.5rem;
 		margin-bottom: 1.5rem;
 	}
-	.about, .catalogue, .newsletter, footer {
+	.about, .catalogue, .newsletter, .main-footer {
 		padding: 4rem 0;
 	}
-	
+
 	.catalogue {
 		padding-bottom: 1rem;
 	}
-	
+
 	.text-wrapper {
 		font-size: 1.15rem;
 	}
-	
+
 /* --- Sections --- */
 /* --- Header --- */
 
@@ -626,7 +626,7 @@ footer {
 		flex-wrap: nowrap;
 		padding-bottom: 1rem;
 	}
-	
+
 	.logo {
 		-webkit-flex-basis: 20%;
 		-ms-flex-preferred-size: 20%;
@@ -636,7 +636,7 @@ footer {
 		-ms-flex-order: 1;
 		order: 1;
 	}
-	
+
 	.logo img {
 		display: -webkit-box;
 		display: -webkit-flex;
@@ -647,7 +647,7 @@ footer {
 			align-self: flex-start;
 		max-width: 7.5rem;
 	}
-	
+
 	.navigation {
 		-webkit-align-self: center;
 		-ms-flex-item-align: center;
@@ -662,14 +662,14 @@ footer {
 		-webkit-order: 2;
 		-ms-flex-order: 2;
 		order: 2;
-		padding: 0 3rem 0 0;	
+		padding: 0 3rem 0 0;
 		text-align: center;
 	}
-	
+
 	.navigation li {
 		margin: 0 .5rem 0;
 	}
-	
+
 	.shop-cart {
 		-webkit-flex-basis: 20%;
 		-ms-flex-preferred-size: 20%;
@@ -680,11 +680,11 @@ footer {
 		order: 3;
 		position: relative;
 	}
-	
+
 	.shop-cart img {
 		max-width: 3rem;
 	}
-	
+
 	.cart-items {
 		font-size: .8rem;
 		line-height: 1;
@@ -704,7 +704,7 @@ footer {
 		height: 25rem;
 		margin-top: 67px;
 	}
-	
+
 	.hero-text p {
 		font-size: 1.25rem;
 		margin-bottom: 1.5rem;
@@ -728,27 +728,27 @@ footer {
 		flex: 1 0 25%;
 		max-width: 25%;
 	}
-	
+
 	.categories-wide, .categories-square {
 		border: .25rem solid #fff;
 	}
-	
+
 	.categories-wide:first-child, .categories-square:nth-child(4) {
 		border-left: 0;
 	}
-	
+
 	.categories-square:nth-child(2) {
 		border-left: .25rem solid #fff;
 	}
-	
+
 	.categories-square:nth-child(5) {
 		border-right: .25rem solid #fff;
 	}
-	
+
 	.categories-square:nth-child(3), .categories-wide:last-child {
 		border-right: 0;
-	}	
-	
+	}
+
 /* --- Product list --- */
 
 	.bx-clone {
@@ -759,50 +759,50 @@ footer {
 		padding: 2.5rem 2rem;
 		width: 50vw !important;
 	}
-	
+
 	.product-category {
 		font-size: .75rem;
 		margin: .9rem 0 1rem 0;
 	}
-	
+
 	.price {
 		font-size: 1rem;
 	}
-	
+
 /* --- Newsletter --- */
-	
+
 	.newsletter {
 		background:
 	    	linear-gradient( rgba(0,0,0,0.15) 0%, rgba(0,0,0,0.15) 100% ),
 			url('../images/wave-bkgd.jpg') no-repeat center bottom;
 	    background-size: cover, 175% auto;
 	}
-	
+
 /* --- Sign Up Form --- */
 
 	.newsletter-form {
 		margin: 2.26rem auto 0;
 		width: 67%;
 	}
-	
+
 	input[type="email"], input[type="submit"] {
 	   font-size: 1rem;
 	}
-	
+
 	input[type="email"] {
 	    padding: .8rem 1.5rem;
 		line-height: 1.3rem;
 	}
-	
+
 	input[type="submit"] {
 		padding: .65rem 1.3rem;
 		right: .23rem;
 		top: .23rem;
 	}
-	
+
 /* --- Footer --- */
 
-	.footer {
+	.footer-flex {
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
@@ -812,19 +812,19 @@ footer {
 			-ms-flex-pack: justify;
 			justify-content: space-between;
 	}
-	
+
 	.credits, .social {
 		text-align: left;
 	}
-	
+
 	.credits, .address {
 		font-size: 1rem;
 	}
-	
+
 	.copyright, .contact {
 		margin-bottom: 1rem;
 	}
-	
+
 	.social {
 		font-size: .95rem;
 		line-height: 2.15;
@@ -835,12 +835,12 @@ footer {
 	.social li {
  		display: block;
 	}
-	
+
 	.social-net {
 		display: inline-block;
 		visibility: visible;
 	}
-		
+
 	.social i {
 		width: 1.6rem;
 	}
@@ -854,60 +854,60 @@ footer {
 	.container {
 		padding: 0 2%;
 	}
-	
+
 	h2 {
 		font-size: 4rem;
 	}
-	
+
 	h3 {
 		font-size: 2.4rem;
 		margin-bottom: 1.5rem;
 	}
-	
+
 	h4 {
 		font-size: 1.5rem;
 		margin-bottom: 1.5rem;
 	}
-	
-	.about, .catalogue, .newsletter, footer {
+
+	.about, .catalogue, .newsletter, .main-footer {
 		padding: 4rem 0;
 	}
-	
+
 	.catalogue {
 		padding-bottom: 2rem;
 	}
-	
+
 	.text-wrapper {
 		font-size: 1.15rem;
 		width: 720px;
 	}
-	
+
 /* --- Sections --- */
 /* --- Header --- */
-	
+
 	.site-header {
 		margin-bottom: 0;
 		padding: 1rem 0;
 	}
-	
+
 	.navigation {
 		font-size: 1rem;
 		padding-right: 5rem;
 		text-align: center;
 	}
-	
+
 	.navigation li {
 		margin: 1rem;
 	}
-	
+
 	.logo img {
 		max-width: 10rem;
 	}
-	
+
 	.shop-cart img {
 		max-width: 4rem;
 	}
-	
+
 	.cart-items {
 		font-size: .8rem;
 		height: 25px;
@@ -917,7 +917,7 @@ footer {
 		top: -5px;
 		width: 25px;
 	}
-	
+
 /* --- Hero Banner --- */
 
 	.hero-banner {
@@ -934,7 +934,7 @@ footer {
 		font-size: 1.25rem;
 		margin-bottom: 1.5rem;
 	}
-	
+
 /* --- Product Catagories --- */
 
 	.product-categories {
@@ -951,7 +951,7 @@ footer {
 		font-size: .75rem;
 		margin-bottom: 1rem;
 	}
-	
+
 	.price {
 		font-size: 1rem;
 	}
@@ -974,12 +974,12 @@ footer {
 	input[type="email"], input[type="submit"] {
 		font-size: 1rem;
 	}
-	
+
 	input[type="email"] {
 		line-height: 1.25rem;
 	    padding: .9rem 1.75rem;
 	}
-	
+
 	input[type="submit"] {
 		padding: .75rem 1.5rem;
 		right: .25rem;
@@ -988,29 +988,29 @@ footer {
 
 /* --- Footer --- */
 
-	footer {
+	.main-footer {
 		line-height: 1.5;
 		margin-top: .5rem;
 	}
-	
+
 	.copyright, .contact {
 		margin-bottom: 1rem;
 	}
-	
+
 	.credits {
 		font-size: 1rem;
 	}
-	
+
 	.address {
 		font-size: 1rem;
 	}
-	
+
 	.social {
 		font-size: 1rem;
 		line-height: 2;
 		padding-right: 4rem;
 	}
-	
+
 	.social i {
 		width: 1.6rem;
 	}
